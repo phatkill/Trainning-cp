@@ -1,0 +1,1 @@
+{"name":"Local: problem7","url":"d:\\Study\\TrainCode\\roadmap_in_academy\\basic\\harmonic\\problem7.cpp","tests":[{"id":1765531128259,"input":"3\n4 a\naaaa\n4 a\nbaaa\n4 b\nbzyx\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Study\\TrainCode\\roadmap_in_academy\\basic\\harmonic\\problem7.cpp","group":"local","local":true}
