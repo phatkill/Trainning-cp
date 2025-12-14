@@ -1,4 +1,4 @@
-/**
+    /**
 problem:https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/A
 Một niệm nghịch thiên — muôn kế diệt vong
 Date: 2025/12/08, Time: 18:22:29
@@ -18,7 +18,7 @@ using namespace std;
 int main() {
     faster
     int n; ll s; cin >> n >> s;
-    vector<ll> a(n + 1); rep(i, 1, n, 1) cin >> a[i];
+    vector<ll> a(n + 1)xor; rep(i, 1, n, 1) cin >> a[i];
     ll sum = 0;
     ll mx = 0;
     int l = 1;
