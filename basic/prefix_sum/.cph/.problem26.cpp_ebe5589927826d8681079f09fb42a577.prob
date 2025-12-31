@@ -1,0 +1,1 @@
+{"name":"Local: problem26","url":"d:\\Study\\TrainCode\\roadmap_in_academy\\basic\\prefix_sum\\problem26.cpp","tests":[{"id":1766066280995,"input":"3\n5\n01001\n3\n000\n15\n110010111100101\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Study\\TrainCode\\roadmap_in_academy\\basic\\prefix_sum\\problem26.cpp","group":"local","local":true}

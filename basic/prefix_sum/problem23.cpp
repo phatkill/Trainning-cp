@@ -1,7 +1,7 @@
 /**
-problem:https://codeforces.com/contest/2048/problem/D
+problem:https://codeforces.com/problemset/problem/1808/B
 Một niệm nghịch thiên — muôn kế diệt vong
-Date: 2025/12/14, Time: 21:17:01
+Date: 2025/12/16, Time: 17:54:51
 create by: Phat Of Bug
 **/
 
@@ -16,17 +16,16 @@ using namespace std;
 #define per(i, a, b, k) for (int i = a; i >= b; i -= k)
 void solve(){
     int n, m; cin >> n >> m;
-    vector<int> a(n + 1), b(m + 1); rep(i, 1, n, 1) cin >> a[i]; rep(i, 1, m, 1) cin >> b[i];
-    int kevin = a[1];
-    sort(all(a));
-    vector<int> cost(m + 1); rep(i, 1, m, 1) if (b[i] > kevin) cost[i] = (int)(a.end() - lower_bound(all(a), b[i]));
-    sort(all(cost));
-    rep(k, 1, m, 1){
-        ll total = m / k;
-        rep(i, k, m, k) total += cost[i];
-        cout << total << " ";
+    vector<vector<ll>> grid(m + 1, vector<ll>(n + 1));
+    rep(i, 1, n, 1){
+        rep(j, 1, m, 1) cin >> grid[j][i];
     }
-    cout << '\n';
+    ll ans = 0;
+    rep(j, 1, m, 1){
+        sort(all(grid[j]));
+        rep(i, 1, n, 1) ans += grid[j][i] * (i * 2 - n - 1);
+    }
+    cout << ans << '\n';
 }
 int main() {
     faster

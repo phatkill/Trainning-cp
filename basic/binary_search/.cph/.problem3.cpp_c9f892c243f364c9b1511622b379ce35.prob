@@ -1,0 +1,1 @@
+{"name":"Local: problem3","url":"d:\\Study\\TrainCode\\roadmap_in_academy\\basic\\binary_search\\problem3.cpp","tests":[{"id":1766071232442,"input":"5 5\n3 3 5 8 9\n2 4 8 1 10\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Study\\TrainCode\\roadmap_in_academy\\basic\\binary_search\\problem3.cpp","group":"local","local":true}
